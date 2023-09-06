@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 203, 203);
+    font-family: 'cassadio-2', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    height: 630px;
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.left{
+    height: 630px;
+    width: 50%;
+    background-image: url(image/formbackgroud.jpg);
+    background-size:cover;
+}
+.right{
+    height: 630px;
+    width: 50%;
+    background-color: white;
+
+}
+
+.logo{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: oblique;
+    color: white;
+    line-height: 30px;
+    
+}
+.social-links{
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.social-buttons{
+    background-color: white;
+    width: 70%;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(114, 112, 112);
+    line-height: 20px;
+    margin: 5px;
+}
+
+.design1{
+    height: 100px;
+    float: right;
+    padding-right: 0px;
+    padding-top: 0px;
+
+}
+
+.design{
+    height: 100px;
+    padding-top: 40px;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    margin-bottom: 8px;
+    color: #4f4f4f;
+}
+p{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(79, 79, 79,0.80);
+    word-spacing: 1px;
+    letter-spacing: 0.1rem;
+}
+
+.input{
+    width: 70%;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+label{
+    color: rgba(79, 79, 79,0.80);
+    font-size: 15px;
+    
+}
+
+.checkbox{
+    margin-left: 63px;
+    margin-top: 8px;
+}
+
+.submit{
+    width: 50%;
+    margin: 28px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(74, 162, 245);
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
